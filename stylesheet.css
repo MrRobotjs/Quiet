@@ -4,7 +4,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "2.0";
+	--theme-version: "2.1";
 }
 
 /* Dark Mode Settings */
@@ -1341,7 +1341,8 @@ div[class*="winButton-"] {
 [class*="switch"][class*="valueUnchecked"],
 .themeDefault-3M0dJU.sizeDefault-rZbSBU:after,
 .themeDefault-3M0dJU.valueChecked-3Bzkbm,
-.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after {
+.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after,
+.statusProfile-3ynqtt {
     border-radius: var(--universal-roundness) !important;
 }
 
@@ -1367,12 +1368,19 @@ div[class*="winButton-"] {
 [class*="avatarWrapper-"] .status-2s6iDp,
 .member-3W1lQa [class*="avatarWrapper-"] .status,
 .container-2Thooq .status-2kJpnA,
-.avatarStatus-3Ay1VL {
+.avatarStatus-3Ay1VL,
+.statusProfile-3ynqtt {
     height: 100%;
     width: 100%;
     background-color: transparent;
     bottom: -2px !important;
     right: -2px !important;
+}
+
+.statusProfile-3ynqtt {
+    border-width: 3px !important;
+	bottom: 0px !important;
+    right: 0px !important;
 }
 
 [class*="avatarWrapper-"] .online-2S838R {
