@@ -362,10 +362,6 @@ div[class*="winButton-"] {
     height: 46px !important;
 }
 
-.name-3YKhmS {
-    color: #000 !important;
-}
-
 .activityFeed-HeiGwL {
     background: var(--primary-color) !important;
 }
@@ -855,7 +851,10 @@ div[class*="winButton-"] {
     border-radius: var(--universal-roundness) !important;
 }
 
-.guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"],
+.guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"] {
+    color: #fff !important;
+}
+
 .guilds-wrapper .guilds .guild.selected .guild-inner div[style*="font-size: 16px;"],
 .guilds-wrapper .guilds .guild.selected:hover .guild-inner div[style*="font-size: 16px;"] {
     background-color: var(--main-color) !important;
