@@ -325,6 +325,10 @@ div[class*="winButton-"] {
 }
 
 .search .DraftEditor-root {
+    background-color: var(--primary-color);
+}
+
+.search .DraftEditor-root {
     line-height: 39px;
 }
 
@@ -352,6 +356,10 @@ div[class*="winButton-"] {
     background: var(--primary-color) !important;
     border-bottom: 2px solid var(--main-color);
     height: 46px !important;
+}
+
+.name-3YKhmS {
+    color: #000 !important;
 }
 
 .activityFeed-HeiGwL {
@@ -601,8 +609,16 @@ div[class*="winButton-"] {
     fill: #000 !important;
 }
 
+.theme-light .colorSelectedText-1y4Wvs,
+.theme-light .colorSelectedVoice-Xcb_9R,
+.theme-light .colorUnreadText-2t7XRb,
+.theme-light .colorUnreadVoice-137o4S0,
+.theme-light .nameConnectedText-3CzNQn,
+.theme-light .nameConnectedVoice-MHUX5F,
+.theme-light .nameSelectedText-sp_EUw,
+.theme-light .nameSelectedVoice-1qSph5,
 .theme-light .private-channels .channel a[href*="/channels/@me"] {
-    color: #000;
+    color: #000
 }
 
 .theme-light .private-channels .channel .close {
@@ -798,6 +814,10 @@ div[class*="winButton-"] {
     color: #000;
 }
 
+.theme-light .guilds-wrapper .guilds .home-icon {
+    filter: invert();
+}
+
 .guilds-wrapper .guilds>div.guild:first-child .badge {
     border-radius: 50%;
     padding: 5px;
@@ -825,11 +845,13 @@ div[class*="winButton-"] {
 
 .guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"] {
     background-color: var(--primary-color) !important;
+    color: #000 !important;
 }
 
 .guilds-wrapper .guilds .guild.selected .guild-inner div[style*="font-size: 16px;"],
 .guilds-wrapper .guilds .guild.selected:hover .guild-inner div[style*="font-size: 16px;"] {
     background-color: var(--main-color) !important;
+    color: #fff !important;
 }
 
 .guilds-wrapper .guilds .guild:hover .guild-inner div[style*="font-size: 16px;"] {
