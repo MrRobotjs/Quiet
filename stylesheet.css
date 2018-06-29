@@ -1342,7 +1342,8 @@ div[class*="winButton-"] {
 .themeDefault-3M0dJU.sizeDefault-rZbSBU:after,
 .themeDefault-3M0dJU.valueChecked-3Bzkbm,
 .valueChecked-3Bzkbm.sizeDefault-rZbSBU:after,
-.statusProfile-3ynqtt {
+.statusProfile-3ynqtt,
+.image-33JSyf {
     border-radius: var(--universal-roundness) !important;
 }
 
