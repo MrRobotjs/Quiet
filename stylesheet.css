@@ -4,7 +4,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "2.2";
+	--theme-version: "2.3";
 }
 
 /* Dark Mode Settings */
@@ -633,6 +633,30 @@ div[class*="winButton-"] {
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
   background-color: transparent !important
+}
+
+.messagesPopoutWrap-1MQ1bW .message-group .accessory>* {
+  max-width: 100% !important;
+}
+
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+  background-color: transparent;
+  box-shadow: 0 0 6px 4px transparent;
+}
+
+.messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
+  background-color: var(--main-color);
+  color: #fff;
+  border-radius: 0px !important
+}
+
+.messagesPopoutWrap-1MQ1bW .actionButtons-1sUUug .jumpButton-3DTcS_ {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+
+.messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
+  background-color: var(--quaternary-color) !important
 }
 
 /* 4. Channel List Area (Private/Server) */
@@ -2475,6 +2499,11 @@ form.modal-content.form.need-help-modal::after {
 
 /* 14a. Profile SMALL Modal */
 
+
+.headerNormal-T_seeN {
+  background-color: var(--quaternary-color) !important;
+}
+
 .da-rolesList {
     overflow: hidden;
     overflow-y: auto;
@@ -2613,11 +2642,11 @@ form.modal-content.form.need-help-modal::after {
     border-color: transparent !important;
 }
 
-.connectedAccount-3mKaTA {
+.connectedAccount-3mKaTA, .topSectionNormal-2-vo2m {
     background-color: var(--quaternary-color) !important;
 }
 
-.topSectionPlaying-1J5E4n, .topSectionNormal-2-vo2m {
+.topSectionPlaying-1J5E4n {
     background: var(--main-color) !important;
 }
 
