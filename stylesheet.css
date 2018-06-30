@@ -84,6 +84,7 @@
 -9. Member List Area (Private/Server)
 -10. Chat Area (Anything that happens in Chat goes here)
 --10a. Rich Embeds
+--10b. Mentions pop up
 -11. Friends List Area
 -12. Context Menu's
 -13. Custom Help Modal
@@ -1510,7 +1511,7 @@ div[class*="winButton-"] {
 /* 9. Member List Area (Private/Server) */
 
 .member-3W1lQa:hover .content-OzHfo4 {
-    background-color: var(--quaternary-color) !important;
+    background-color: var(--secondary-color) !important;
     color: #fff;
 }
 
@@ -1930,6 +1931,34 @@ div[class*="winButton-"] {
 
 [style*="background-color: rgb(114, 137, 218);"], [style*="background-color: rgb(30, 35, 39);"] {
     background-color: var(--main-color) !important;
+}
+
+/* 10b. Mentions pop up */
+
+.autocomplete-1vrmpx.autocomplete-i9yVHs.da-autocomplete {
+  bottom: 112% !important;
+}
+
+.autocomplete-1vrmpx {
+  background-color: var(--quaternary-color) !important;
+}
+
+.selectorSelected-1_M1WV {
+  background-color: var(--secondary-color) !important;
+}
+
+.descriptionDiscriminator-3vUOCc, .contentTitle-2tG_sM {
+  color: var(--main-color) !important;
+  font-weight: 700 !important;
+}
+
+.descriptionUsername-J_75O8, .description-11DmNu {
+  color: #fff !important;
+}
+
+.divider-23swzi {
+  height: 2px;
+  background-color: var(--main-color) !important;
 }
 
 /* 11. Friends List Area */
