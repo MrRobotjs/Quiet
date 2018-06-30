@@ -951,7 +951,9 @@ div[class*="winButton-"] {
     transition: all .25 linear;
 }
 
-.guilds-wrapper .guilds .guild .guild-inner {
+.guilds-wrapper .guilds .guild .guild-inner,
+.guilds-wrapper .guilds .guild .guild-inner a,
+.guilds-wrapper .guild.guilds-add::after {
     border-radius: var(--universal-roundness) !important;
 }
 
@@ -1476,16 +1478,12 @@ div[class*="winButton-"] {
 .member-3W1lQa [class*="avatarWrapper-"] .status-2s6iDp,
 .private-channels .channel .avatar-small,
 .messages-popout .message-group .avatar-large,
-.guilds-wrapper .guilds .guild .guild-inner a,
-.guilds-wrapper .guild.guilds-add::after,
 .member-3W1lQa [class*="status-"],
 .userPopout-11hFKo [class*="status-"],
 .modal-2LIEKY [class*="status-"],
-.themeDefault-3M0dJU.sizeDefault-rZbSBU:after,
-.themeDefault-3M0dJU.valueChecked-3Bzkbm,
-.valueChecked-3Bzkbm.sizeDefault-rZbSBU:after,
 .statusProfile-3ynqtt,
-.image-33JSyf {
+.image-33JSyf,
+.avatarHint-1qgaV3 {
     border-radius: var(--universal-roundness) !important;
 }
 
