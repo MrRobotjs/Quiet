@@ -4,7 +4,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "2.3";
+	--theme-version: "2.4";
 }
 
 /* Dark Mode Settings */
@@ -673,19 +673,19 @@ div[class*="winButton-"] {
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
-  background-color: transparent;
-  box-shadow: 0 0 6px 4px transparent;
+  background-color: transparent !important;
+  box-shadow: 0 0 6px 4px transparent !important;
 }
 
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_ {
-  background-color: var(--main-color);
-  color: #fff;
+  background-color: var(--main-color) !important;
+  color: #fff !important;
   border-radius: 0px !important
 }
 
 .messagesPopoutWrap-1MQ1bW .actionButtons-1sUUug .jumpButton-3DTcS_ {
-  margin-left: 0px;
-  margin-right: 10px;
+  margin-left: 0px !important;
+  margin-right: 10px !important;
 }
 
 .messagesPopoutWrap-1MQ1bW .footer-1kmXd4 {
