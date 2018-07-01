@@ -1020,14 +1020,9 @@ div[class*="winButton-"] {
     border-radius: var(--universal-roundness) !important;
 }
 
-.guilds-wrapper .guilds .guild.selected .guild-inner div[style*="font-size: 16px;"] {
-    background-color: var(--main-color) !important;
+.theme-dark .guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"] {
+    background-color: var(--primary-color) !important;
     color: #fff !important;
-}
-
-.guilds-wrapper .guilds .guild.selected:hover .guild-inner div[style*="font-size: 16px;"],
-.guilds-wrapper .guilds .guild:hover .guild-inner div[style*="font-size: 16px;"] {
-    background-color: var(--hover-color) !important;
 }
 
 .theme-light .guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"] {
@@ -1035,8 +1030,13 @@ div[class*="winButton-"] {
     color: #000 !important;
 }
 
-.theme-dark .guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"] {
-    background-color: var(--primary-color) !important;
+.guilds-wrapper .guilds .guild.selected:hover .guild-inner div[style*="font-size: 16px;"],
+.guilds-wrapper .guilds .guild:hover .guild-inner div[style*="font-size: 16px;"] {
+    background-color: var(--hover-color) !important;
+}
+
+.guilds-wrapper .guilds .guild.selected .guild-inner div[style*="font-size: 16px;"] {
+    background-color: var(--main-color) !important;
     color: #fff !important;
 }
 
