@@ -4,7 +4,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "2.4";
+	--theme-version: "2.5";
 }
 
 /* Dark Mode Settings */
@@ -91,13 +91,15 @@
 -13. Custom Help Modal
 -14. Modals
 --14a. Profile SMALL Modal
+--14b. Profile LARGE Modal
 -15. Miscellaneous
 --15a. Scrollbars
 --15b. Shadows
 --15c. CSS Editor Buttons
 --15d. Unread Pop outs
 --15e. Discord Notice's
---15f. Keyframes
+--15f. Buttons
+--15g. Keyframes
 
 */
 
@@ -166,6 +168,14 @@
 [style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.0980392);"] {
   color: var(--main-color) !important;
   background: hsla(216,4%,74%,.1) !important;
+}
+
+.ui-standard-sidebar-view .custom-scroller>div, .sidebarScrollable-1qPI87+.content-1rPSz4 {
+  max-width: 100%;
+}
+
+.themeDefault-24hCdX.valueChecked-m-4IJZ {
+  background-color: var(--main-color);
 }
 
 /* 2. Code Blocks */
@@ -298,7 +308,7 @@ div[class*="titleBar-"] div:nth-of-type(4) {
   width: 15px;
   opacity: 1 !important;
   margin-top: 10px;
-  left: -27px;
+  left: -34px;
 }
 
 div[class*="titleBar-"] div:hover:nth-of-type(4) {
@@ -314,7 +324,7 @@ div[class*="titleBar-"] div:nth-of-type(3) {
   width: 15px;
   opacity: 1 !important;
   margin-top: 10px;
-  left: -22px;
+  left: -27px;
 }
 
 div[class*="titleBar-"] div:hover:nth-of-type(3) {
@@ -330,7 +340,7 @@ div[class*="titleBar-"] div:nth-of-type(2) {
   width: 15px;
   opacity: 1 !important;
   margin-top: 10px;
-  left: -17px;
+  left: -20px;
 }
 
 div[class*="titleBar-"] div:hover:nth-of-type(2) {
@@ -414,10 +424,6 @@ div[class*="winButton-"] {
     background: var(--primary-color) !important;
     border-bottom: 2px solid var(--main-color);
     height: 46px !important;
-}
-
-.activityFeed-HeiGwL {
-    background: var(--primary-color) !important;
 }
 
 /* 3a. Server Search Suggestions */
@@ -2140,6 +2146,12 @@ div[class*="winButton-"] {
 
 /* 12. Context Menu's   */
 
+
+.theme-light {
+    color: #9099a4;
+    color: #333 !important;
+}
+
 .contextMenu-HLZMGh {
     background: var(--quaternary-color) !important;
     border-radius: 2px;
@@ -2152,7 +2164,7 @@ div[class*="winButton-"] {
     border: 1px solid var(--quaternary-color) !important;
 }
 
-.theme-dark.contextMenu-HLZMGh .contextMenu-HLZMGh {
+.contextMenu-HLZMGh .contextMenu-HLZMGh {
     transform-origin: 0 0 !important;
 }
 
@@ -2532,12 +2544,15 @@ form.modal-content.form.need-help-modal::after {
 
 /* 14a. Profile SMALL Modal */
 
+.theme-light .bodyTitle-Y0qMQz {
+  color: #797979;
+}
 
 .headerNormal-T_seeN {
   background-color: var(--quaternary-color) !important;
 }
 
-.da-rolesList {
+.rolesList-22qj2L {
     overflow: hidden;
     overflow-y: auto;
 }
@@ -2660,7 +2675,26 @@ form.modal-content.form.need-help-modal::after {
     width: 7px;
 }
 
+.topSectionNormal-2-vo2m .discriminator-xUhQkU {
+  color: var(--main-color) !important;
+  font-weight: 600;
+}
+
+.topSectionPlaying-1J5E4n .discriminator-xUhQkU {
+  color: #fff !important;
+}
+
 /* 14b. Profile LARGE Modal */
+
+
+.headerNormal-T_seeN .discriminator {
+  color: var(--main-color) !important;
+} 
+
+.topSectionNormal-2-vo2m .discriminator-xUhQkU {
+  color: var(--main-color) !important;
+  font-weight: 600 !important;
+}
 
 .tabBarContainer-3RVZc- {
     border-top: 0px solid transparent !important;
@@ -2685,6 +2719,10 @@ form.modal-content.form.need-help-modal::after {
 
 /* 15. Miscellaneous */
 
+.activityFeed-28jde9 {
+    background: var(--primary-color) !important;
+}
+
 ::selection {
     background: var(--main-color) !important;
     color: #fff !important;
@@ -2705,18 +2743,6 @@ form.modal-content.form.need-help-modal::after {
 
 .theme-light [d*="M15 7.5V2H9v5.5l3 3 3-3zM7.5 9H2v6h5.5l3-3-3-3zM9 16.5V22h6v-5.5l-3-3-3 3zM16.5 9l-3 3 3 3H22V9h-5.5z"] {
   fill: #000;
-}
-
-.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
-    background-color: var(--hover-color) !important;
-}
-
-.lookFilled-luDKDo.colorBrand-3PmwCE {
-    background-color: var(--main-color) !important;
-}
-
-.lookInverted-2lPGe7.colorBrand-3PmwCE {
-    color: var(--main-color);
 }
 
 .appMount-14L89u {
@@ -2929,7 +2955,7 @@ span:not(.spinner-item) {
     background-color: var(--main-color) !important;
 }
 
-.da-rolesList::-webkit-scrollbar {
+.rolesList-22qj2L::-webkit-scrollbar {
     height: 8px;
     width: 12px;
 }
@@ -3054,7 +3080,21 @@ span:not(.spinner-item) {
     transition: all .2s linear;
 }
 
-/* 15f. Keyframes */
+/* 15f. Buttons */
+
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+    background-color: var(--hover-color) !important;
+}
+
+.lookFilled-luDKDo.colorBrand-3PmwCE {
+    background-color: var(--main-color) !important;
+}
+
+.lookInverted-2D7oAl.colorBrand-3pXr91 {
+    color: var(--main-color);
+}
+
+/* 15g. Keyframes */
 
 @keyframes slide-up {
     from {
