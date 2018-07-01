@@ -1592,8 +1592,7 @@ div[class*="winButton-"] {
 
 .statusProfile-3ynqtt {
     border-width: 3px !important;
-    bottom: 0px !important;
-    right: 0px !important;
+    box-shadow: 0px 0px !important
 }
 
 [class*="avatarWrapper-"] .online-2S838R, 
