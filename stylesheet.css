@@ -1592,31 +1592,43 @@ div[class*="winButton-"] {
 
 .statusProfile-3ynqtt {
     border-width: 3px !important;
-	bottom: 0px !important;
+    bottom: 0px !important;
     right: 0px !important;
 }
 
-[class*="avatarWrapper-"] .online-2S838R, .statusProfile-3ynqtt .online-2S838R {
+[class*="avatarWrapper-"] .online-2S838R, 
+.statusProfile-3ynqtt .online-2S838R,
+.statusProfile-3ynqtt.online-2S838R {
   border: 2px solid var(--online-color) !important;
 }
 
-[class*="avatarWrapper-"] .idle-3DEnRT,  .statusProfile-3ynqtt .idle-3DEnRT {
+[class*="avatarWrapper-"] .idle-3DEnRT,  
+.statusProfile-3ynqtt .idle-3DEnRT,
+.statusProfile-3ynqtt.idle-3DEnRT {
   border: 2px solid var(--idle-color) !important;
 }
 
-[class*="avatarWrapper-"] .dnd-1_xrcq, .statusProfile-3ynqtt .dnd-1_xrcq {
+[class*="avatarWrapper-"] .dnd-1_xrcq, 
+.statusProfile-3ynqtt .dnd-1_xrcq,
+.statusProfile-3ynqtt.dnd-1_xrcq {
   border: 2px solid var(--dnd-color) !important;
 }
 
-[class*="avatarWrapper-"] .offline-3qoTek, .statusProfile-3ynqtt .offline-3qoTek {
+[class*="avatarWrapper-"] .offline-3qoTek, 
+.statusProfile-3ynqtt .offline-3qoTek,
+.statusProfile-3ynqtt.offline-3qoTek {
   border: 2px solid var(--offline-color) !important;
 }
 
-[class*="avatarWrapper-"] .invisible-1kp8Z0, .statusProfile-3ynqtt .invisible-1kp8Z0 {
+[class*="avatarWrapper-"] .invisible-1kp8Z0, 
+.statusProfile-3ynqtt .invisible-1kp8Z0,
+.statusProfile-3ynqtt.invisible-1kp8Z0 {
   border: 2px solid var(--invisible-color) !important;
 }
 
-[class*="avatarWrapper-"] .streaming-2_dnHe, .statusProfile-3ynqtt .streaming-2_dnHe {
+[class*="avatarWrapper-"] .streaming-2_dnHe, 
+.statusProfile-3ynqtt .streaming-2_dnHe,
+.statusProfile-3ynqtt.streaming-2_dnHe {
   border: 2px solid var(--streaming-color) !important;
 }
 
