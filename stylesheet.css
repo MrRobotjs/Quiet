@@ -283,25 +283,58 @@ div[class*="winButton-"]:hover {
     opacity: 1 !important;
 }
 
-div[class*="titleBar-"] div:nth-of-type(2) {
-    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg) !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px !important;
-}
-
-div[class*="titleBar-"] div:nth-of-type(3) {
-    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg) !important;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px !important;
+div[class*="titleBar-"] div {
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 15px !important;
 }
 
 div[class*="titleBar-"] div:nth-of-type(4) {
-    background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;
-    background-repeat: no-repeat;
-    background-position: center 7px;
-    background-size: 24px !important;
+  background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/remove.svg) !important;
+  background: #ffdb07;
+  border: 2.9px solid #d4a100;
+  border-radius: 50%;
+  height: 15px !important;
+  width: 15px;
+  opacity: 1 !important;
+  margin-top: 10px;
+  left: -27px;
+}
+
+div[class*="titleBar-"] div:hover:nth-of-type(4) {
+  background-color: #dc8004 !important;
+}
+
+div[class*="titleBar-"] div:nth-of-type(3) {
+  background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/fullscreen.svg) !important;
+  background: #3be30b;
+  border: 2.9px solid #17c700;
+  border-radius: 50%;
+  height: 15px !important;
+  width: 15px;
+  opacity: 1 !important;
+  margin-top: 10px;
+  left: -22px;
+}
+
+div[class*="titleBar-"] div:hover:nth-of-type(3) {
+  background-color: #006502 !important;
+}
+
+div[class*="titleBar-"] div:nth-of-type(2) {
+  background-image: url(https://cdn.rawgit.com/Zerthox/ClearVision/master/icons/close.svg) !important;
+  background: #ff9d76;
+  border: 2.9px solid #fc744b;
+  border-radius: 50%;
+  height: 15px !important;
+  width: 15px;
+  opacity: 1 !important;
+  margin-top: 10px;
+  left: -17px;
+}
+
+div[class*="titleBar-"] div:hover:nth-of-type(2) {
+  background-color: #ff4d2d !important;
 }
 
 .chat [class*='titleWrapper-'] [class*='flex-'] [class*='flex-'],
