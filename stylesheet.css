@@ -99,7 +99,8 @@
 --15d. Unread Pop outs
 --15e. Discord Notice's
 --15f. Buttons
---15g. Keyframes
+--15g. Tooltips
+--15h. Keyframes
 
 */
 
@@ -2835,18 +2836,6 @@ span:not(.spinner-item) {
     background-color: var(--main-color) !important;
 }
 
-.bd-blue .tooltip {
-    background-color: var(--main-color) !important;
-}
-
-.bd-blue .tooltip.tooltip-right:after {
-    border-right-color: var(--main-color) !important;
-}
-
-.tooltip {
-    border-radius: 0px !important;
-}
-
 .titleWrapper-1l0xT9 .title-3qD0b- {
     background: var(--primary-color) !important;
 }
@@ -3093,7 +3082,37 @@ span:not(.spinner-item) {
     color: var(--main-color);
 }
 
-/* 15g. Keyframes */
+/* 15g. Tooltips */
+
+.tooltip {
+  color: #fff !important;
+}
+
+.tooltip.tooltip-black {
+  background-color: var(--main-color);
+}
+
+.tooltip.tooltip-black.tooltip-right:after {
+  border-right-color: var(--main-color);
+}
+
+.tooltip.tooltip-black.tooltip-top:after {
+  border-top-color: var(--main-color);
+}
+
+.bd-blue .tooltip {
+  background-color: var(--main-color) !important;
+}
+
+.bd-blue .tooltip.tooltip-right:after {
+  border-right-color: var(--main-color) !important;
+}
+
+.tooltip {
+  border-radius: 0px !important;
+}
+
+/* 15h. Keyframes */
 
 @keyframes slide-up {
     from {
