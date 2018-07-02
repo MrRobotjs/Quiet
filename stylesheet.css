@@ -81,7 +81,7 @@
 -5. Guilds Area
 -6. Account Area
 -7. Emoji Picker
--8. Avatars
+-8. Avatars/Online Status
 -9. Member List Area (Private/Server)
 -10. Chat Area (Anything that happens in Chat goes here)
 --10a. Rich Embeds
@@ -1517,7 +1517,7 @@ div[class*="winButton-"] {
     display: none !important;
 }
 
-/* 10. Avatars */
+/* 10. Avatars/Online Status */
 
 .avatar-large,
 .avatar-profile,
@@ -1591,37 +1591,43 @@ div[class*="winButton-"] {
 
 [class*="avatarWrapper-"] .online-2S838R, 
 .statusProfile-3ynqtt .online-2S838R,
-.statusProfile-3ynqtt.online-2S838R {
+.statusProfile-3ynqtt.online-2S838R,
+.container-2Thooq .status-2kJpnA.online-2S838R {
   border: 2px solid var(--online-color) !important;
 }
 
 [class*="avatarWrapper-"] .idle-3DEnRT,  
 .statusProfile-3ynqtt .idle-3DEnRT,
-.statusProfile-3ynqtt.idle-3DEnRT {
+.statusProfile-3ynqtt.idle-3DEnRT,
+.container-2Thooq .status-2kJpnA.idle-3DEnRT {
   border: 2px solid var(--idle-color) !important;
 }
 
 [class*="avatarWrapper-"] .dnd-1_xrcq, 
 .statusProfile-3ynqtt .dnd-1_xrcq,
-.statusProfile-3ynqtt.dnd-1_xrcq {
+.statusProfile-3ynqtt.dnd-1_xrcq,
+.container-2Thooq .status-2kJpnA.dnd-1_xrcq {
   border: 2px solid var(--dnd-color) !important;
 }
 
 [class*="avatarWrapper-"] .offline-3qoTek, 
 .statusProfile-3ynqtt .offline-3qoTek,
-.statusProfile-3ynqtt.offline-3qoTek {
+.statusProfile-3ynqtt.offline-3qoTek,
+.container-2Thooq .status-2kJpnA.offline-3qoTek {
   border: 2px solid var(--offline-color) !important;
 }
 
 [class*="avatarWrapper-"] .invisible-1kp8Z0, 
 .statusProfile-3ynqtt .invisible-1kp8Z0,
-.statusProfile-3ynqtt.invisible-1kp8Z0 {
+.statusProfile-3ynqtt.invisible-1kp8Z0,
+.container-2Thooq .status-2kJpnA.invisible-1kp8Z0 {
   border: 2px solid var(--invisible-color) !important;
 }
 
 [class*="avatarWrapper-"] .streaming-2_dnHe, 
 .statusProfile-3ynqtt .streaming-2_dnHe,
-.statusProfile-3ynqtt.streaming-2_dnHe {
+.statusProfile-3ynqtt.streaming-2_dnHe,
+.container-2Thooq .status-2kJpnA.streaming-2_dnHe {
   border: 2px solid var(--streaming-color) !important;
 }
 
