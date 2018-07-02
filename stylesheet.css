@@ -142,9 +142,11 @@
     min-width: 460px;
 }
 
-.cardPrimary-ZVL9Jr,
-.cardPrimaryEditable-2IQ7-V,
-.authedApp-2JX_oI {
+.cardPrimary-1Hv-to, 
+.cardPrimaryEditable-3KtE4g, 
+.cardPrimaryOutline-29Ujqw, 
+.cardPrimaryOutlineEditable-PEnpzz,
+[class*="authedApp-"] {
     background: var(--quaternary-color) !important;
     border: none;
 }
@@ -612,12 +614,8 @@ div[class*="winButton-"] {
   margin-top: -1px;
 }
 
-.recentMentionsPopout-2fmau1 {
-  margin-top: 1px !important;
-}
-
-.noArrow-3BYQ0Z.noShadow-321ZPm.popout-3sVMXz.popoutBottomRight-2JrySt.popoutbottom-right[style*="z-index: 1000; visibility: visible;"] {
-  margin-top: 1px !important;
+.recentMentionsPopout-2fmau1, .messagesPopoutWrap-1MQ1bW {
+  margin-top: 10px !important;
 }
 
 .messagesPopoutWrap-1MQ1bW .message-group {
@@ -2152,6 +2150,22 @@ div[class*="winButton-"] {
 
 /* 12. Context Menu's   */
 
+/* Delete/Edit Message */
+
+.container-1rPqdX {
+  background: var(--quaternary-color) !important;
+  border-radius: 0px !important;
+  padding: 0px !important;
+}
+
+.theme-dark .button-1ZXqCA:active, .theme-dark .button-1ZXqCA:hover {
+  background-color: var(--secondary-color) !important;
+}
+
+.theme-light .button-1ZXqCA:active, .theme-light .button-1ZXqCA:hover {
+  background-color: var(--secondary-color) !important;
+  color: #000 !important;
+}
 
 .theme-light {
     color: #9099a4;
@@ -3076,11 +3090,11 @@ span:not(.spinner-item) {
 
 /* 15f. Buttons */
 
-.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
+.lookFilled-1Gx00P.colorBrand-3pXr91:hover {
     background-color: var(--hover-color) !important;
 }
 
-.lookFilled-luDKDo.colorBrand-3PmwCE {
+.lookFilled-luDKDo.colorBrand-3pXr91 {
     background-color: var(--main-color) !important;
 }
 
