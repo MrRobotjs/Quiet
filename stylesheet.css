@@ -100,7 +100,8 @@
 --15e. Discord Notice's
 --15f. Buttons
 --15g. Tooltips
---15h. Keyframes
+--15h. ReplySystem
+--15i. Keyframes
 
 */
 
@@ -3111,7 +3112,29 @@ span:not(.spinner-item) {
   border-radius: 0px !important;
 }
 
-/* 15h. Keyframes */
+/* 15h. ReplySystem */
+
+.reply-list {
+  background: var(--quaternary-color);
+}
+
+.reply-list {
+    position: absolute;
+    bottom: calc(100% - 0px) !important;
+    border-radius: 0px !important;
+}
+
+.reply-item {
+  background: var(--secondary-color) !important;
+  border-radius: 0px !important;
+}
+
+.reply-clear {
+  top: 9px !important;
+  right: 6px !important;
+}
+
+/* 15i. Keyframes */
 
 @keyframes slide-up {
     from {
