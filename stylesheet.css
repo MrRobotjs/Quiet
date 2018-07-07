@@ -4,7 +4,7 @@
 /* User Settings */
 :root {
 	--theme-name: "Quiet";
-	--theme-version: "2.7";
+	--theme-version: "2.8";
 }
 
 /* Dark Mode Settings */
@@ -743,6 +743,29 @@ div[class*="winButton-"] {
 }
 
 /* 4b. Server Channel List */
+
+.wrapperDefault-10Jfvz, 
+.wrapperHovered-28fu1D, 
+.wrapperHoveredCollapsed-1PADEo, 
+.wrapperUnread-1JPWj3 {
+    height: 28px;
+    background-color: var(--tertiary-color);
+    padding-top: 4px;
+}
+
+.wrapperMuted-3KeA2M,
+.wrapperCollapsed-3Fbxl6 {
+    background-color: var(--primary-color);
+}
+
+.iconCollapsed-3hFp_8, 
+.iconDefault-3Gr8d2, 
+.iconHovered-2L3-fB, 
+.iconHoveredCollapsed-3caIIZ, 
+.iconMuted-1HVBGH, 
+.iconUnread-2eGkvX {
+    top: 7px;
+}
 
 .item-1GzJrl:hover {
   background-color: var(--secondary-color) !important;
@@ -3106,8 +3129,6 @@ private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input
 .nameMutedText-1YDcP-,
 .nameMutedVoice-26k4cP,
 .bodyTitle-Y0qMQz,
-.iconMuted-Hb4ttQ,
-.nameMuted-1n0LSj,
 .nameDefaultText-24KCy5,
 .nameDefaultVoice-3WUH7s,
 .nameLockedText-3pqQcL,
@@ -3132,7 +3153,9 @@ private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input
 [class*="labelDescriptor-"],
 [class*="desc-"],
 [class*="activity-"],
-[class*="topic-"] {
+[class*="topic-"],
+[class*="iconMuted-"],
+[class*="nameMuted-"] {
     color: var(--tertiary-text) !important;
 }
 
