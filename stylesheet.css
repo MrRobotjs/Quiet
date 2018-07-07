@@ -2865,7 +2865,7 @@ span:not(.spinner-item) {
 
 /* 15e. Discord Notice's */
 
-[class*="notice-"] {
+.notice-2FJMB4 {
     font-size: 0px !important;
     height: 50px;
     width: 50px;
@@ -2878,7 +2878,7 @@ span:not(.spinner-item) {
     padding: 0px;
 }
 
-[class*="notice-"]::after {
+.notice-2FJMB4::after {
     content: "!";
     font-size: 25px;
     line-height: 50px;
@@ -2888,11 +2888,11 @@ span:not(.spinner-item) {
     display: none;
 }
 
-[class*="notice-"]:hover::after {
+.notice-2FJMB4:hover::after {
     display: none;
 }
 
-[class*="notice-"]:hover {
+.notice-2FJMB4:hover {
     font-size: 18px !important;
     line-height: 400px;
     position: fixed;
@@ -2903,12 +2903,12 @@ span:not(.spinner-item) {
     bottom: 0 !important;
 }
 
-[class*="notice-"]:hover .button-1MICoQ {
+.notice-2FJMB4:hover .button-1MICoQ {
     display: unset !important;
     line-height: 390px;
 }
 
-[class*="notice-"] .dismiss-1QjyJW {
+.notice-2FJMB4 .dismiss-1QjyJW {
     height: 36px;
 }
 
