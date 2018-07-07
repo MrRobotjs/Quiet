@@ -441,6 +441,16 @@ div[class*="winButton-"] {
 
 /* 3a. Server Search Suggestions */
 
+.searchOption-zQ-1l6 .filter-3Y_im-, 
+.option-96V44q.user-O3Czj0 .displayUsername-Qekxml, 
+.option-96V44q .filter-3Y_im- {
+    color: var(--main-color) !important;
+}
+
+.resultsGroup-r_nuzN .searchLearnMore-3SQUAj {
+    top: 16px;
+}
+
 .input-MwQhcX {
     background-color: var(--main-color) !important;
     box-shadow: unset !important;
