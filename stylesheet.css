@@ -259,6 +259,12 @@ pre {
   filter: invert();
 }
 
+/* Icons */
+.iconForeground-3y9f0B, 
+.title-1aVOXw {
+    color: var(--main-color);
+}
+
 div[class*="titleBar-"] {
     height: 0px;
     margin-top: 0px !important;
