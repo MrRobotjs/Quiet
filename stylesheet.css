@@ -2364,16 +2364,12 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 }
 
 .contextMenu-HLZMGh .da-item:hover {
-    background: rgba(225, 225, 225, 0.03) !important;
+    background: var(--secondary-color) !important;
     transition: all 0ms;
 }
 
 .contextMenu-HLZMGh {
     z-index: 1000000 !important
-}
-
-.contextMenu-HLZMGh .da-item.danger-1oUOCl:hover {
-    color: #F04747 !important;
 }
 
 .contextMenu-HLZMGh .contextMenu-HLZMGh {
@@ -3394,6 +3390,10 @@ private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input
 [class*="iconMuted-"],
 [class*="nameMuted-"] {
     color: var(--tertiary-text) !important;
+}
+
+[class*="item-"][class*="danger-"] {
+    color: #F04747 !important;
 }
 
 /* 15k. Keyframes */
