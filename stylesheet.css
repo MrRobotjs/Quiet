@@ -3,7 +3,7 @@
 
 /* User Settings */
 :root {
-	--theme-version: "2.9";
+	--theme-version: "3.0";
 }
  
 /* Dark Mode Settings */
@@ -39,7 +39,6 @@
     --streaming-color: #643da7;
     /* color for streaming status */
     --theme-name: "Quiet";
-    /* name of theme */
 }
 
 /* Light Mode Settings */
@@ -75,7 +74,6 @@
     --streaming-color: #643da7;
     /* color for streaming status */
     --theme-name: "Loud";
-    /* name of theme */
 }
 
 /* Table of Contents
@@ -2313,10 +2311,6 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 
 /* 11. Friends List Area */
 
-[class*="activityFeed-"][class*="body-"][class*="marginTop20-"] {
-    margin-top: 47px;
-}
-
 #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
   background-color: #2ecc71 !important;
 }
@@ -2464,6 +2458,10 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
     top: 16px;
     font-family: Satisfy;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.need-help-modal .header h1::after {
+    content: var(--theme-name)" v" var(--theme-version);
 }
 
 .need-help-modal.deprecated .header {
@@ -3375,6 +3373,7 @@ private-channels .channel a[href*="/channels/@me"],
 private-channels .channel .channel-name,
 actionIcon-2JXNvo,
 private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input-placeholder,
+.search-bar input::-webkit-input-placeholder,
 [class*="wrapperHoveredText-"] [class*="nameUnreadText-"],
 [class*="wrapperHoveredText-"] [class*="nameHoveredText-"],
 .button-1ZXqCA:active, 
@@ -3389,7 +3388,12 @@ private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input
 [class*="header-"],
 [class*="defaultColor-"],
 [class*="actionIcon-"],
-#app-mount .header-2o-2hj::after {
+#app-mount .header-2o-2hj::after,
+.private-channels .channel .channel-name,
+.private-channels .channel a,
+.private-channels .channel:hover a,
+.chat [class*="base-"] h1,
+.search-bar input {
     color: var(--primary-text) !important;
 }
 
