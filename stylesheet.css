@@ -262,7 +262,7 @@ pre {
 /* Icons */
 .iconForeground-3y9f0B, 
 .title-1aVOXw {
-    color: var(--main-color);
+    color: var(--main-color) !important;
 }
 
 div[class*="titleBar-"] {
@@ -435,7 +435,8 @@ div[class*="winButton-"] {
     background-color: var(--primary-color);
 }
 
-.divider-1GKkV3 {
+.divider-1GKkV3,
+.divider-2PMBlV {
     display: none;
 }
 
