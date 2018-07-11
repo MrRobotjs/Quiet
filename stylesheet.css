@@ -3,7 +3,6 @@
 
 /* User Settings */
 :root {
-	--theme-name: "Quiet";
 	--theme-version: "2.9";
 }
  
@@ -39,6 +38,8 @@
     /* color for invisible status - Note this will only show for your own invisibility */
     --streaming-color: #643da7;
     /* color for streaming status */
+    --theme-name: "Quiet";
+    /* name of theme */
 }
 
 /* Light Mode Settings */
@@ -73,6 +74,8 @@
     /* color for invisible status - Note this will only show for your own invisibility */
     --streaming-color: #643da7;
     /* color for streaming status */
+    --theme-name: "Loud";
+    /* name of theme */
 }
 
 /* Table of Contents
@@ -2309,6 +2312,10 @@ body:active .alt-3btY0e.menu-Sp6bN1:not(:active) {
 }
 
 /* 11. Friends List Area */
+
+[class*="activityFeed-"][class*="body-"][class*="marginTop20-"] {
+    margin-top: 47px;
+}
 
 #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
   background-color: #2ecc71 !important;
