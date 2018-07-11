@@ -1017,6 +1017,11 @@ div[class*="winButton-"] {
     background-color: var(--secondary-color) !important;
 }
 
+.guilds-wrapper .guilds .guild.selected .guild-inner div[style*="font-size: 16px;"],
+.guilds-wrapper .guilds .guild:hover .guild-inner div[style*="font-size: 16px;"] {
+    color: #fff !important;
+}
+
 .guilds-wrapper .guilds .guild.selected:hover .guild-inner div[style*="font-size: 16px;"],
 .guilds-wrapper .guilds .guild:hover .guild-inner div[style*="font-size: 16px;"] {
     background-color: var(--hover-color) !important;
@@ -3322,8 +3327,8 @@ span:not(.spinner-item) {
 .search-results-wrap .channel-separator .channel-name,
 .search-results-wrap .action-buttons .jump-button,
 .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_,
-.nameUnreadText-1pxldj,
-.nameUnreadVoice-QK4gxH,
+[class*="nameUnreadText"],
+[class*="nameUnreadVoice"],
 .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label,
 .has-value.Select--single>.Select-control .Select-value .Select-value-label,
 .form-deprecated .control-group label,
