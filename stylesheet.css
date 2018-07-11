@@ -790,6 +790,44 @@ div[class*="winButton-"] {
     border-bottom: 2px solid var(--main-color);
 }
 
+#app-mount .header-2o-2hj {
+    background-color: transparent;
+    box-shadow: 0 0;
+    transition: none;
+    cursor: default;
+    pointer-events: none;
+    padding: 0 0 0 12px;
+}
+
+#app-mount .container-2Rl01u {
+    pointer-events: none;
+    cursor: default;
+}
+
+#app-mount .header-2o-2hj:hover::after {
+    background-color: var(--primary-color);
+}
+
+#app-mount .header-2o-2hj:active::after {
+    background-color: var(--tertiary-color);
+}
+
+#app-mount .header-2o-2hj::after {
+    font-family: "Segoe MDL2 Assets";
+    font-size: 16px;
+    pointer-events: all;
+    content: "";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46px;
+    width: 46px;
+}
+
+#app-mount .header-2o-2hj svg {
+    display: none;
+}
+
 .popouts-3dRSmE .popout-3sVMXz.popoutBottom-1YbShG.popoutbottom .menu-Sp6bN1 {
     background: var(--tertiary-color) !important;
     border-radius: 0px !important;
@@ -2478,10 +2516,10 @@ form.modal-content.form.need-help-modal::after {
     content: "C\0332 r\0332 e\0332 a\0332 t\0332 o\0332 r\0332 :\A Omniscient#0002 \A\A P\0332 e\0332 r\0332 s\0332 o\0332 n\0332 a\0332 l\0332 S\0332 e\0332 r\0332 v\0332 e\0332 r\0332:\A discord.me/mrrobotserver \A\A D\0332 o\0332 n\0332 a\0332 t\0332 i\0332 o\0332 n\0332:\A paypal.me/getrichchris \A\A";
     padding: 38px;
     min-height: 200px;
-    background-color: #19191b;
+    background-color: var(--primary-color);
     width: 100%;
     white-space: pre;
-    color: #fff;
+    color: var(--primary-text);
 }
 
 .need-help-modal .form-inner>ul {
@@ -2504,7 +2542,7 @@ form.modal-content.form.need-help-modal::after {
 
 .need-help-modal .footer::after {
     content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0Need help? Visit https://betterdocs.net";
-    background-color: #19191b;
+    background-color: var(--secondary-color);
     width: 100%;
     height: 34px;
     position: absolute;
@@ -2512,8 +2550,8 @@ form.modal-content.form.need-help-modal::after {
     left: 0;
     line-height: 32px;
     border-radius: 0 0 5px 5px;
-    border-top: 2px solid #161618;
-    color: #fff;
+    border-top: 2px solid var(--main-color);
+    color: var(--primary-text);
 }
 
 .need-help-modal .form-inner.loading .spinner {
@@ -3337,7 +3375,8 @@ private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input
 [class*="nameSelectedVoice-"],
 [class*="header-"],
 [class*="defaultColor-"],
-[class*="actionIcon-"] {
+[class*="actionIcon-"],
+#app-mount .header-2o-2hj::after {
     color: var(--primary-text) !important;
 }
 
@@ -3358,7 +3397,8 @@ private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input
 [class*="side-"] [class*="itemDefault-"]:hover, 
 [class*="side-"] [class*="itemHover-"]:hover,
 .h5-18_1nd,
-.comment .markup {
+.comment .markup,
+.theme-brand [class*="textArea-"] {
     color: var(--secondary-text) !important;
 }
 
