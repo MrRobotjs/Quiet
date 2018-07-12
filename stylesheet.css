@@ -2940,6 +2940,10 @@ form.modal-content.form.need-help-modal::after {
 
 /* 15. Miscellaneous */
 
+.container-16j22k {
+    display: none;
+}
+
 .activityFeed-28jde9 {
     background: var(--secondary-color) !important;
 }
