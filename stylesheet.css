@@ -117,13 +117,16 @@
 
 /* 1. User Settings */
 
-.ui-standard-sidebar-view .sidebar-region .sidebar,
-.ui-standard-sidebar-view .sidebar-region .sidebar-region-scroller {
-    background-color: var(--tertiary-color) !important
+.ui-standard-sidebar-view .sidebar-region {
+    background: var(--tertiary-color) !important;
 }
 
 .ui-standard-sidebar-view .content-region {
-    background-color: var(--secondary-color) !important;
+    background: var(--secondary-color) !important;
+}
+
+.ui-standard-sidebar-view {
+    background: transparent !important;
 }
 
 .ui-standard-sidebar-view .sidebar-region,
@@ -700,12 +703,20 @@ div[class*="winButton-"] {
 
 /* 4. Channel List Area (Private/Server) */
 
-.channels-Ie2l6A,
 .container-PNkimc {
     background-color: var(--secondary-color) !important;
 }
 
+.channels-Ie2l6A{
+    background-color: transparent !important;
+}
+
 /* 4a. Private Channel List */
+
+
+.private-channels {
+    background: var(--secondary-color) !important;
+}
 
 .private-channels .search-bar {
     border-bottom: 2px solid var(--main-color);
@@ -719,7 +730,7 @@ div[class*="winButton-"] {
 }
 
 .private-channels .search-bar .search-bar-inner {
-    background: var(--secondary-color);
+    background: transparent !important;
     border: 0px solid transparent;
     border-radius: 0px;
     padding: 0px;
