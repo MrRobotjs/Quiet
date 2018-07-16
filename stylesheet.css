@@ -3195,17 +3195,25 @@ span:not(.spinner-item) {
 
 .notice-2FJMB4:hover .button-1MICoQ {
     display: unset !important;
-    line-height: 390px;
 }
 
-.notice-2FJMB4 .dismiss-1QjyJW {
-    height: 36px;
-}
-
-.dismiss-1QjyJW {
+.notice-2FJMB4 [class*="dismiss-"]  {
     height: 0px;
     right: 100px;
     transition: all .2s linear;
+}
+
+.notice-2FJMB4:hover [class*="dismiss-"] {
+    height: 36px;
+    right: unset;
+}
+
+.notice-2FJMB4 img {
+    display: none;
+}
+
+.notice-2FJMB4:hover img {
+    display: initial;
 }
 
 /* 15f. Buttons */
@@ -3223,6 +3231,10 @@ span:not(.spinner-item) {
 }
 
 /* 15g. Tooltips */
+
+.tooltip.tooltip-black.tooltip-bottom:after {
+    border-bottom-color: var(--main-color);
+}
 
 .tooltip {
   color: #fff !important;
