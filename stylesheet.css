@@ -3,7 +3,7 @@
 
 /* User Settings */
 :root {
-    --theme-version: "3.0";
+    --theme-version: "3.2";
     /* version of the theme */
     --online-color: #43b581;
     /* color for online status */
@@ -406,14 +406,9 @@ div[class*="winButton-"] {
 }
 
 .search .search-bar {
-    background-color: var(--tertiary-color);
     height: 46px;
     width: 170px;
     border-radius: 0px;
-}
-
-.search .DraftEditor-root {
-    background-color: var(--secondary-color);
 }
 
 .search .DraftEditor-root {
@@ -431,7 +426,6 @@ div[class*="winButton-"] {
 
 .search .search-bar-icon {
     width: 35px;
-    background-color: var(--primary-color);
 }
 
 .divider-1GKkV3,
@@ -444,6 +438,13 @@ div[class*="winButton-"] {
     background: var(--secondary-color) !important;
     border-bottom: 2px solid var(--main-color);
     height: 46px !important;
+}
+
+.search .DraftEditor-root, 
+.search .search-bar,
+.search .search-bar-icon {
+    background: transparent !important;
+    background-color: transparent !important;
 }
 
 /* 3a. Server Search Suggestions */
@@ -482,13 +483,8 @@ div[class*="winButton-"] {
     fill: #fff;
 }
 
-.search .search-bar {
-    background-color: var(--secondary-color) !important;
-}
-
 .search .search-bar-icon {
     width: 35px;
-    background-color: var(--secondary-color) !important;
 }
 
 .searchPopout-1vUlP3 {
@@ -2016,9 +2012,12 @@ body:active [class*="popout-"] [class*="alt-"][class*="menu-"]:not(:active) {
     padding: 1px 3px 1.4px 2px !important;
 }
 
-.chat>.content,
 .messages-wrapper {
     background-color: var(--secondary-color) !important;
+}
+
+.content {
+    background-color: transparent !important;
 }
 
 .message-group:not(.has-divider) {
