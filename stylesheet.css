@@ -962,25 +962,25 @@ div[class*="winButton-"] {
     border-radius: var(--universal-roundness) !important;
 }
 
-.theme-dark .guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"] {
+.theme-dark .guilds-wrapper .guilds .guild .guild-inner div[style^="font-size"] {
     background-color: var(--secondary-color) !important;
 }
 
-.theme-light .guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"] {
+.theme-light .guilds-wrapper .guilds .guild .guild-inner div[style^="font-size"] {
     background-color: var(--secondary-color) !important;
 }
 
-.guilds-wrapper .guilds .guild.selected .guild-inner div[style*="font-size: 16px;"],
-.guilds-wrapper .guilds .guild:hover .guild-inner div[style*="font-size: 16px;"] {
+.guilds-wrapper .guilds .guild.selected .guild-inner div[style^="font-size"],
+.guilds-wrapper .guilds .guild:hover .guild-inner div[style^="font-size"] {
     color: #fff !important;
 }
 
-.guilds-wrapper .guilds .guild.selected:hover .guild-inner div[style*="font-size: 16px;"],
-.guilds-wrapper .guilds .guild:hover .guild-inner div[style*="font-size: 16px;"] {
+.guilds-wrapper .guilds .guild.selected:hover .guild-inner div[style^="font-size"],
+.guilds-wrapper .guilds .guild:hover .guild-inner div[style^="font-size"] {
     background-color: var(--hover-color) !important;
 }
 
-.guilds-wrapper .guilds .guild.selected .guild-inner div[style*="font-size: 16px;"] {
+.guilds-wrapper .guilds .guild.selected .guild-inner div[style^="font-size"] {
     background-color: var(--main-color) !important;
 }
 
@@ -2298,7 +2298,7 @@ div [class*="popout-"] [class*="container-"] [class*="button-"]:hover {
 }
 
 /* 12b. Other menus */
-.contextMenu-HLZMGh {
+[class*="app"] ~ [class*="contextMenu-"] {
     background: var(--tertiary-color) !important;
     border-radius: 2px;
     padding: 0px 0px;
@@ -2320,7 +2320,7 @@ div [class*="popout-"] [class*="container-"] [class*="button-"]:hover {
     transform-origin: bottom !important;
 }
 
-.contextMenu-HLZMGh .da-itemGroup:not(:first-child):not(:empty) {
+[class*="app"] ~ [class*="contextMenu-"] [class*="itemGroup"]:not(:first-child):not(:empty) {
     border-color: var(--tertiary-color) !important;
 }
 
@@ -2328,11 +2328,11 @@ div [class*="popout-"] [class*="container-"] [class*="button-"]:hover {
     background: var(--tertiary-color) url(/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50% !important;
 }
 
-.theme-dark.contextMenu-HLZMGh .da-itemGroup {
+[class*="app"] ~ [class*="contextMenu-"] [class*="itemGroup"] {
     border: none !important;
 }
 
-.contextMenu-HLZMGh .da-item {
+[class*="app"] ~ [class*="contextMenu-"] [class*="item-"] {
     background: transparent !important;
     border-radius: 0px;
     transition: all 80ms ease;
@@ -2342,12 +2342,12 @@ div [class*="popout-"] [class*="container-"] [class*="button-"]:hover {
     animation: opacity 200ms 100ms backwards;
 }
 
-.contextMenu-HLZMGh .da-item:hover {
+[class*="app"] ~ [class*="contextMenu-"] [class*="item-"]:hover {
     background: var(--secondary-color) !important;
     transition: all 0ms;
 }
 
-.contextMenu-HLZMGh {
+[class*="app"] ~ [class*="contextMenu-"] {
     z-index: 1000000 !important
 }
 
@@ -2360,20 +2360,20 @@ div [class*="popout-"] [class*="container-"] [class*="button-"]:hover {
     margin-top: 16px
 }
 
-.theme-dark.contextMenu-HLZMGh .itemSubMenu-3ZgIw- {
+[class*="app"] ~ [class*="contextMenu-"] [class*="itemSubMenu-"] {
     position: relative;
 }
 
-.contextMenu-HLZMGh .slider-2e2iXJ .track-1h2wOF {
+[class*="app"] ~ [class*="contextMenu-"] [class*="slider-"] [class*="track-"] {
     right: 0px !important;
     left: 3px !important;
 }
 
-.contextMenu-HLZMGh .slider-2e2iXJ .bar-2cFRGz {
+[class*="app"] ~ [class*="contextMenu-"] [class*="slider-"] [class*="bar-"] {
     height: 3px
 }
 
-.da-item.itemSubMenu-3ZgIw-:hover::after {
+[class*="app"] ~ [class*="contextMenu-"] [class*="item-"][class*="itemSubMenu-"]:hover::after {
     opacity: 1;
 }
 
@@ -3362,7 +3362,7 @@ private-channels .search-bar .search-bar-inner input[type="text"]::-webkit-input
 [class*="wrapperHoveredText-"] [class*="nameHoveredText-"],
 .button-1ZXqCA:active, 
 .button-1ZXqCA:hover,
-.guilds-wrapper .guilds .guild .guild-inner div[style*="font-size: 16px;"],
+.guilds-wrapper .guilds .guild .guild-inner div[style^="font-size"],
 .container-2Thooq,
 .guilds-wrapper .guilds .friends-online,
 .private-channels header,
